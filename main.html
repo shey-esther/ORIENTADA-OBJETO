@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<center><h1>La tabla</h1></center>
+</head>
+<style type="text/css">
+	body{
+		color:black;
+	}
+</style>
+<center>
+<body style="background-color: pink">
+<table border="1">
+<tr>
+<TD><div>4</div></TD> 
+<TD><div>8</div></TD>
+<TD><div>12</div></TD> 
+<TD><div>16</div></TD> 
+<TD><div>20</div></TD> 
+<TD><div>24</div></TD> 
+<TD><div>28</div></TD> 
+<TD><div>32</div></TD> 
+</tr>
+<tr> 
+<TD><div>3</div></TD>
+<TD><div>7</div></TD> 
+<TD><div>11</div></TD> 
+<TD><div>15</div></TD> 
+<TD><div>19</div></TD> 
+<TD><div>23</div></TD> 
+<TD><div>27</div></TD> 
+<TD><div>31</div></TD>  
+</tr> 
+<tr style="background: black">
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+<TD><div>""</div></TD> 
+</tr>
+<tr>
+<TD><div>2</div></TD> 
+<TD><div>6</div></TD> 
+<TD><div>10</div></TD> 
+<TD><div>14</div></TD> 
+<TD><div>18</div></TD> 
+<TD><div>22</div></TD> 
+<TD><div>26</div></TD> 
+<TD><div>30</div></TD> 
+</tr>
+<tr> 
+<TD><div>1</div></TD>
+<TD><div>5</div></TD> 
+<TD><div>9</div></TD> 
+<TD><div>13</div></TD> 
+<TD><div>17</div></TD> 
+<TD><div>21</div></TD> 
+<TD><div>25</div></TD> 
+<TD><div>29</div></TD>  
+</tr>
+</table>
+<p id="mostrar"></p>
+<div>
+	<p>
+		<input type="text" id="dni1"  placeholder="DNI" required="">
+		<button type="buscar" id="buscar" onclick="buscar()">Buscar</button>
+	</p>
+	<p>
+		<input type="text" id="nombre" placeholder="Nombre" required=""><br>
+		<input type="text" id="apellidos" placeholder="Apellidos" required=""><br>
+		<input type="text" id="dni" placeholder="DNI" required=""><br><br>
+		<button id="reservar" type="button" onclick="reservar()">Reservar</button>
+		<button id="cancelar" type="button" onclick="cancelar()">Cancelar</button><br><br>
+		<button id="mostrar" type="button" onclick="mostrar()">Mostrar</button><br><br>
+	</p>
+	</div>
+<div id="resultado"></div>
+<script src="main.js"></script>
+</body>
+
+</center>
+</html>
